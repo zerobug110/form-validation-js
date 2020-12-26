@@ -44,6 +44,7 @@ btn.addEventListener('click', (event) => {
         if (inputPassword.value !== inputConfirm || inputPassword.value == null) {
             errorPassword.style.display = "block";
         }
+        
         else {
             errorPassword.style.display = "none";      
         }
