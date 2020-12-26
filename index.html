@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>form validation</title>
+</head>
+<body>
+    
+    <form action="" class="form">
+        <div class="user-img">
+            <img src="images/img.jpg" alt="" srcset="" class="img">
+        </div>
+
+        <h3 class="sign-up">sign up</h3>
+        <input type="text" name="" placeholder="Name" class="input input-name">
+        <p class="erorr-name error">input cannot be blank</p>
+        <input type="text" name="" placeholder="Lastname" class="input input-lname">
+        <p class="erorr-lname error">input cannot be blank</p>
+        <input type="email" name="" placeholder="Email" class="input input-email" required>
+        <p class="erorr-email error">invalid email</p>
+        <input type="password" name="" placeholder="password" class="input input-password">
+        <input type="password" name="" placeholder="confirm password" class="input input-confirm">
+        <p class="erorr-password error">password doesn't match or it's blank</p>
+        <input type="submit" value="submit" class="submit-btn">
+    </form>
+    <script src="app.js"></script>
+    
+</body>
+</html>
