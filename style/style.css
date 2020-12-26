@@ -65,8 +65,12 @@ body {
 }
 
 .input {
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
     margin-bottom: 1rem;
+    background-color: #d4d8db;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
 }
 
 .submit-btn {
